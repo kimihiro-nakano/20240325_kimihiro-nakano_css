@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #00277e;
+    margin: 10px;
+}
+li {
+    list-style: none;
+}
+main {
+    position: relative;
+    top: 100px;
+}
+img {
+    display: absolute;
+    float: right;
+    width: 700px;
+    height: 500px;
+    z-index: 10;
+}
+p {
+    position: absolute;
+    top: 250px;
+    font-size: 60px;
+}
+.blue-box {
+    position: absolute;
+    top: 370px;
+    right: 25%;
+    width: 800vw;
+    height: 200px;
+    background-color: #00277f;
+    z-index: -10;
+}
