@@ -1,35 +1,45 @@
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-a {
+.header__ttl a {
     text-decoration: none;
     color: #00277e;
+}
+.header__nav-list {
+    list-style: none;
+    padding: 0;
+}
+.header__nav-list li {
+    display: inline-block;
     margin: 10px;
 }
-li {
-    list-style: none;
+.header__nav-list li a {
+    text-decoration: none;
+    color: #00277e;
 }
-main {
+.header__nav-list li:last-child {
+    margin-right: 10;
+}
+.content {
     position: relative;
     top: 100px;
 }
-img {
-    display: absolute;
+.content__img {
+    display: block;
     float: right;
-    width: 700px;
-    height: 500px;
+    width: 50vw;
     z-index: 10;
 }
-p {
+.content__txt {
     position: absolute;
-    top: 250px;
+    top: 480px;
     font-size: 60px;
 }
-.blue-box {
+.content__bluebox {
     position: absolute;
-    top: 370px;
+    top: 600px;
     right: 25%;
     width: 800vw;
     height: 200px;
